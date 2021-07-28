@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-node-roboleary",
+  "author": "Rob O'Leary",
+  "version": "0.1.0",
+  "description": "My ESLint config for Node that makes a happy marriage with Prettier",
+  "repository": "git@github.com:robole/eslint-config-node-roboleary.git",
+  "license": "ISC",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "node",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-prettier": ">=8",
+    "eslint-config-roboleary-base": ">=0.1.0",
+    "eslint-plugin-node": ">=11"
+  }
+}
