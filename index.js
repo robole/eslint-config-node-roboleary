@@ -1,8 +1,10 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: false,
+    node: true,
     es2020: true,
     mocha: true,
+    jest: true,
   },
   extends: [
     "eslint-config-roboleary-base",
@@ -13,4 +15,7 @@ module.exports = {
     ecmaVersion: 2020,
   },
   ignorePatterns: ["**/node_modules/*", "**/dist/*", "**/out/*"],
+  rules: {
+    "node/exports-style": ["error", "module.exports"],
+  },
 };

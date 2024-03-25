@@ -10,7 +10,7 @@ It includes the following:
 ## Usage
 
 1. Install this package, ESLint (peer dependency) and Prettier (peer dependency) as *devDependencies* with the command `npm i --save-dev eslint prettier eslint-config-node-roboleary`.
-1. Create an eslint config file in the root of your project directory e.g. _.eslintrc_. Add the following:
+1. Create an eslint config file in the root of your project directory e.g. *.eslintrc*. Add the following:
 
    ```json
    {
@@ -18,9 +18,9 @@ It includes the following:
    }
    ```
 
-   Alternatively, you can put a reference to the config in your _package.json_ under the property `eslintConfig`.
+   Alternatively, you can put a reference to the config in your *package.json* under the property `eslintConfig`.
 
-1. You can add scripts to your _package.json_ to lint, fix, and format your code from the command-line.
+1. You can add scripts to your *package.json* to lint, fix, and format your code from the command-line.
 
 	```json
 	{
